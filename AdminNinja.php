@@ -501,7 +501,7 @@ function Max_Current_Pid(){
        $array=self::lookup_Hash($lookup_val);
        // if($array['lookup_success']!==1){ return array();}
         echo "<pre>";
-      print_r($array);
+      //print_r($array);
         echo "</pre>";
 
 

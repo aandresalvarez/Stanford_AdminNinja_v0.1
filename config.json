@@ -1,0 +1,50 @@
+{
+	"name": "Admin Ninja",
+
+	"namespace": "Stanford\\AdminNinja",
+
+	"description": "Integrated set of tools for administrators: quick search by project id, project title, and user, extended text editor, auto fill for surveys and keyboard shortcuts.",
+
+	"documentation": "README.md",
+
+	"authors": [
+		{
+			"name": "Alvaro A. Alvarez",
+			"email": "alvaro1@stanford.edu",
+			"institution": "Stanford University"
+		}
+	],
+
+	"permissions": [
+		"hook_every_page_top",
+		"redcap_control_center"
+
+	],
+	"enable-every-page-hooks-on-system-pages": true,
+
+
+	"links": {},
+
+
+
+	"system-settings": [
+		{
+			"key": "descriptive-text",
+			"name": "<h5><strong>Pinned projects:</strong></h5>",
+			"type": "descriptive"
+		},
+		{
+			"key": "pinned-projects",
+			"name": "Project id (pid)",
+			"required": false,
+			"type": "project-id",
+			"repeatable": true
+		}
+
+	],
+
+	"project-settings": [
+
+
+	]
+}
